@@ -1,0 +1,255 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration:none;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+}
+
+.container .bir{
+  width: 100%;
+  min-height:100vh;
+}
+
+.container .bir nav{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content:end;
+  padding:0px 60px;
+  margin-bottom:120px;
+}
+
+.container .bir nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:33px;
+}
+
+.container .bir nav ul li #links{
+  font-weight:500;
+  font-size:20px;
+  line-height:100%;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.container .bir section{
+  width: 100%;
+  min-height:100vh;
+}
+
+.container .bir section .cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.container .bir section .cards .card-one{
+  max-width: 497px;
+  width: 100%;
+}
+
+.container .bir section .cards .card-one h1{
+  font-weight:700;
+  font-size:44px;
+  line-height: 60px;
+  letter-spacing:0px;
+  color:#21243D;
+  margin-bottom:40px;
+}
+
+.container .bir section .cards .card-one p{
+  font-weight:400;
+  font-size:16px;
+  line-height:100%;
+  letter-spacing:2px;
+  color: #21243D;
+  margin-bottom:47px;  
+}
+
+.container .bir section .cards .card-one button{
+  width: 208px;
+  height:47px;
+  background-color:#FF6464;
+  color:#FFFFFF;
+  border:none;
+  border-radius:2px;
+  cursor:pointer;
+}
+
+.container .bir section .cards .card-two img{
+  width: 243px;
+  height: 243px;
+}
+
+.container main{
+  padding:7px 148px 32px 148px;
+  background-color:#EDF7FA;
+}
+
+.container main .soz{
+  margin-bottom:4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container main .soz h1{
+  font-weight:400;
+  font-size:22px;
+  line-height:60px;
+  letter-spacing:0px;
+  color: #21243D;
+}
+
+.container main .soz span{
+  font-weight:400;
+  font-size: 16px;
+  line-height:100%;
+  letter-spacing:0px;
+  color:#00A8CC;
+}
+
+.container main .cards{
+  display: flex;
+  gap:20px;
+}
+
+.container main .cards .card-one{
+  background-color:#FFFFFF;
+  padding:24px 27px 10px 23px;
+  border-radius:5px;
+}
+
+.container main .cards .card-one h1{
+  font-weight:700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing:0%;
+  color: #21243D;
+  margin-bottom:19px;
+}
+
+.container main .cards .card-one h2{
+  font-weight:400;
+  font-size: 17px;
+  line-height:100%;
+  letter-spacing:0px;
+  color:#21243D;
+  margin-bottom:14px;
+}
+
+.container main .cards .card-one p{
+  font-weight:400;
+  font-size:17px;
+  line-height:85%;
+  letter-spacing:4px;
+  color:#21243D;
+  margin-bottom:10px;
+}
+
+.container .oz section{
+  padding:15px 148px 83px 146px;
+}
+
+.container .oz section .h1 h1{
+  font-weight: 400;
+  font-size:22px;
+  line-height:60px;
+  letter-spacing:0px;
+  margin-bottom:22px;
+}
+
+.container .oz section .cards{
+  display: flex;
+  flex-direction: column;
+  gap:31px;
+}
+
+.container .oz section .cards .card{
+  width: 100%;
+  padding:0px 0px 15px 0px;
+  display: flex;
+  gap:18px;
+  border-bottom:1px solid grey;
+}
+
+.container .oz section .cards .card .soz h1{
+  font-weight:700;
+  font-size:30px;
+  line-height:100%;
+  letter-spacing:0px;
+  color:#21243D;
+  margin-bottom:15px;
+}
+
+.container .oz section .cards .card .soz .one{
+  display: flex;
+  gap:26px;
+  margin-bottom:20px;
+}
+
+.container .oz section .cards .card .soz .one h2{
+  width:62px;
+  height:25px;
+  font-weight: 900;
+  font-size:18px;
+  line-height:60px;
+  letter-spacing:0px;
+  background-color: #142850;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:16px;
+  color:white;
+}
+
+.container .oz section .cards .card .soz .one h3{
+  font-weight:400;
+  font-size:20px;
+  line-height:100%;
+  letter-spacing:0px;
+  color:#8695A4;
+}
+
+.container .oz section .cards .card .soz p{
+  font-weight:400;
+  font-size:16px;
+  line-height:100%;
+  letter-spacing:3px;
+  color:#21243D;
+}
+
+.container .oz .ohir{
+  padding:52px 460px;
+}
+
+.container .oz .ohir .icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:35px;
+  margin-bottom:26px;
+}
+
+.container .oz .ohir h1{
+  font-weight:400;
+  font-size:14px;
+  line-height:100%;
+  letter-spacing:0px;
+  color:#21243D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

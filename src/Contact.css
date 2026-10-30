@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.container .salom {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container .salom nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: end;
+    padding: 0px 60px;
+    margin-bottom: 120px;
+}
+
+.container .salom nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+
+.container .salom nav ul li #Link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.container .salom {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container .salom h1 {
+    font-weight: 700;
+    font-size:42px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #21243D;
+    margin-bottom: 30px;
+}
+
+.container .salom section {
+    padding: 0px 170px 27px 300px;
+}
+
+.container .salom section .cards {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    gap: 27px;
+    margin-bottom: 27px;
+}
+
+.container .salom section .cards h1 {
+    width: 62px;
+    height: 25px;
+    background-color: #FF7C7C;
+    border-radius: 16px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .salom section .cards span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #21243D;
+}
+
+.container .salom section p {
+    width: 681px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom:46px;
+}
+
+.container .salom section img{
+    width:681px;
+    height:460px;
+    margin-bottom:50px;
+}
+
+.container .salom section h3{
+    font-weight:500;
+    font-size:30px;
+    line-height:60px;
+    letter-spacing:0px;
+    color: #21243D;
+    margin-bottom:7px;
+}
+
+.container .salom section h4{
+    font-weight:500;
+    font-size:24px;
+    line-height:60px;
+    letter-spacing:0px;
+    color:#21243D;
+    margin-bottom:11px;
+}
+
+.container .salom section #p{
+    font-weight:400;
+    font-size:17px;
+    line-height:100%;
+    letter-spacing:0px;
+    color:#000000;
+    margin-bottom:30px;
+}
+
+.container .salom section #img-one{
+    margin-bottom:27px;
+}
+
+.container .salom .ohir{
+  padding:52px 460px;
+}
+
+.container .salom .ohir .icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:35px;
+  margin-bottom:26px;
+}
+
+.container .salom .ohir h1{
+  font-weight:400;
+  font-size:14px;
+  line-height:100%;
+  letter-spacing:0px;
+  color:#21243D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
